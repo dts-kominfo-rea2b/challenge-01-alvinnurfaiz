@@ -1,4 +1,6 @@
-const { users } = require("./index");
+const {
+  users
+} = require("./index");
 
 describe("users - array", () => {
   it("should be an array", async () => {
@@ -9,4 +11,3 @@ describe("users - array", () => {
     expect(users.length).toBe(2);
   });
 });
-
